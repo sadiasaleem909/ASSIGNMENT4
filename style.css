@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: cause;
+    src: url(/fonts/Cause\,Roboto.zip);
+}
+.logodiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logodiv img{
+    width: 12%;
+}
+.logodiv span{
+    font-size: 22px;
+    font-family:caues;
+}
+#orange{
+    color: #f1650e;
+}
+header{
+   width: 100%;
+    display: flex; 
+    background-color: white;
+    box-shadow: 0 7px 35px #676565;
+    padding: 25px 60px;
+    justify-content: space-around;
+position: sticky;
+}
+.navlinks{
+    display: flex;
+    gap: 30px;
+}
+.navlinks li {
+    list-style: none;
+}
+.navlinks li a {
+    text-decoration: none;
+    color: #000;
+    font-family: caues;
+    font-size: 20px;
+    padding: 27px;
+
+}
+/* .hero div img{
+    width: 500px;
+    height: 65vh;
+    padding: 20pxpx;
+} */
+ .hero{
+    display: flex;
+    align-items: center;
+    
+ } 
+ .hero div img{
+    width: 700px;
+    height: 90vh;
+    padding: 50px;
+ }
+ .per{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+ }
+ .orangee{
+    color: #f1650e;
+    font-size: 50px;
+ }
+ h1{
+    font-size: 50px;
+ }
+ button{
+    width: 80px;
+    padding: 6px;
+    background: #1126e3;
+    color: #f9f3f3;
+    border-radius: 5%;
+
+ }
