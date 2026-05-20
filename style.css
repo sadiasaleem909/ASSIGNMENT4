@@ -3,9 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --primary:#E5E5E5;
+}
 @font-face {
-    font-family: cause;
-    src: url(/fonts/Cause\,Roboto.zip);
+    font-family:"Roboto";
+    src: url("./fonts/Roboto_Condensed-Bold.ttf");
+}
+@font-face {
+    font-family:"Bebas" ;
+    src: url("./fonts/BebasNeue-Regular.otf");
 }
 .logodiv{
     display: flex;
@@ -47,7 +54,7 @@ position: sticky;
 
 }
 /* .hero div img{
-    width: 500px;
+    width: 500px
     height: 65vh;
     padding: 20pxpx;
 } */
@@ -81,3 +88,137 @@ position: sticky;
     border-radius: 5%;
 
  }
+ .casuals{
+    width: 100%;
+    background-color: var(--primary);
+    padding: 30px 62px;
+ }
+ .shoe1{
+    background-color: white;
+    width: 30%;
+    padding: 12px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+ }
+ .shoe1 img{
+    width: 99%;
+     background-color:var(--primary);
+    
+     
+ }
+ .heading{
+    padding: 20px;
+    font-family:Bebas ;
+     font-size: 30px;
+    font-weight: lighter;
+    color: #363958;
+ }
+ .price span{
+    color: #f1650e;
+    font-weight: bold;
+    font-size: x-large;
+ }
+ .price{
+    display: flex;
+    justify-content: space-between;
+ }
+ .price button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    width:100px ;
+    height: 40px; 
+    color: white;
+    text-align: center;
+    font-weight: 50;
+    background-color: #3D4FF3;
+    border-radius: 6%;
+    font-family: roboto;
+    cursor: pointer;
+    gap: 10px;
+ }
+ .price button:hover{
+     width:102px ;
+    height: 42px; 
+     background-color: #2a3bcd;
+
+ }
+
+.shoecontent h2{
+font-family: Roboto ;
+}
+.shoe{
+    display: flex;
+    justify-content: space-between;
+}
+.shoecontent{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+/* featuers  */
+.featuers{
+    background-color: var(--primary);
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    gap: 50px;
+ }
+ .featuerscontent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+width: 100%;
+    
+ }
+.info1{
+background-color: white;
+    display: flex;
+    text-align: left;
+     gap: 30px;
+    width:450px;
+    height: 150px;
+    padding: 40px 10px 10px 10px;
+    border-radius: 3%;
+}
+.info2{
+background-color: white;
+    display: flex;
+    text-align: left;
+    gap: 30px;
+    width:450px;
+    height: 150px;
+     padding: 40px 10px 10px 10px;
+      border-radius: 3%;
+}
+.info3{
+background-color: white;
+    display: flex;
+    text-align: left;
+     gap: 30px;
+    width:450px;
+    height: 150px;
+     padding: 40px 10px 10px 10px;
+      border-radius: 3%;
+}
+.info1 img{
+    width:20%;
+    height: 60%;
+}
+.info2 img{
+    width: 20%;
+    height: 60%;
+}
+.info3 img{
+    width: 20%;
+    height: 60%;
+}
+.shoppingimage img{
+    width: 80%;
+}
